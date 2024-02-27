@@ -38,7 +38,7 @@ function encriptarTexto(mensaje) {
         u: "ufat"
     };
 
-    mensaje = mensaje.toLowerCase(); // Convertir a minúsculas
+    mensaje = mensaje.toLowerCase(); 
 
     let textoFinal = "";
     for (let i = 0; i < mensaje.length; i++) {
@@ -48,8 +48,7 @@ function encriptarTexto(mensaje) {
 }
 
 function desencriptarTexto(mensaje) {
-    mensaje = mensaje.toLowerCase(); // Convertir a minúsculas
-
+    mensaje = mensaje.toLowerCase(); 
     var textoDesencriptado = mensaje.replace(/ai/g, "a")
                                     .replace(/enter/g, "e")
                                     .replace(/imes/g, "i")

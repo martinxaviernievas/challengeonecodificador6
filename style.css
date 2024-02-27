@@ -41,11 +41,11 @@ main{
 .boxtext {
     margin-top: -100px;
     width: 50%;
-    height: 80%;
-    border: 2px solid #0d3c6b; 
+    height: 90%;
+    border: 3px solid #033369; 
     background-color: #f4f4fc;
     cursor: pointer;
-    color: #0A3871;
+    color: #1257b3;
     font-size: 32px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
@@ -53,7 +53,7 @@ main{
 
 
 .boxtext::placeholder{
-    color: rgba(111, 132, 160, 0.753);
+    color: rgb(120, 120, 158);
 }
 
 .alert{
@@ -66,9 +66,9 @@ main{
 
 .content-button{
     position: absolute;
-    top: 578px;
-    height: 80px;
-    padding-left: 17%;
+    top: 585px;
+    height: 65px;
+    padding-left: 18%;
     padding-top: 15px;
 }
 
@@ -98,21 +98,21 @@ main{
     font-weight: 400;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
-    transition: background-color 0.3s ease; /* Transición suave de 0.3 segundos */
-    background-color: #D8DFE8; /* Color de fondo inicial */
+    transition: background-color 0.3s ease; 
+    background-color: #D8DFE8; 
     color: #0A3871;
     border: 1px solid #0A3871;
 }
 
 .btn-decrypt:active {
-    background-color: #808080; /* Cambia el color de fondo cuando se presiona */
+    background-color: #808080; 
 }
 
 .section2{
     display: block;
     position: absolute;
     width: 356px;
-    height: 700px;
+    height: 690px;
     right: 100px;
     padding-right: 20px;
     background-color: #ffffff;
@@ -156,9 +156,9 @@ main{
 .content-result {
     position: absolute;
     bottom: 330px;
-    right: 25px; /* Ajuste para mantenerlo a la derecha */
+    right: 25px; 
     width: 320px;
-    height: 450px;
+    height: 340px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -178,7 +178,6 @@ main{
 }
 
 .btn-copy {
-    /* Estilos existentes para el botón de Copiar */
     width: 328px;
     height: 67px;
     border-radius: 24px;
@@ -189,21 +188,21 @@ main{
     font-family: 'Inter', sans-serif;
     border: 1px solid #0A3871;
     cursor: pointer;
-    margin-left: -20px; /* Ajuste del margen a la izquierda */
-    margin-top: -10px; /* Ajuste del margen hacia abajo */
+    margin-left: -20px; 
+    margin-top: -10px; 
 }
 
-/* Efecto de cambio de color de fondo cuando se presiona el botón de Copiar */
+
 .btn-copy:active {
-    background-color: #808080; /* Cambia el color de fondo cuando se presiona */
+    background-color: #808080;
 }
 
 footer {
     color: #07111d;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
-    margin-left: 25px; /* Ajuste del margen a la izquierda */
-    margin-top: -55px; /* Ajuste del margen hacia abajo */
+    margin-left: 25px;
+    margin-top: -55px; 
    
 }
 
