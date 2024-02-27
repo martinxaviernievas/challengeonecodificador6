@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+}
+
+body{
+    background-color: #f4f4fc;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logo {
+    margin-top: 20px;
+    top: 40px; 
+    left: 40px; 
+    width: 100px; 
+    height: auto; 
+}
+
+main{
+    position: absolute;
+    width: 105%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentboxtext{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    padding-left: 100px;
+    width: 1080px;
+    height: 600px;
+}
+
+.boxtext {
+    margin-top: -100px;
+    width: 50%;
+    height: 80%;
+    border: 2px solid #0d3c6b; 
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+  }
+
+
+.boxtext::placeholder{
+    color: rgba(111, 132, 160, 0.753);
+}
+
+.alert{
+    position: absolute;
+    top: 550px;
+    left: 370px;
+    display: flex;
+    color: #495057;
+}
+
+.content-button{
+    position: absolute;
+    top: 578px;
+    height: 80px;
+    padding-left: 17%;
+    padding-top: 15px;
+}
+
+.btn-encrypt {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+
+.btn-encrypt:active {
+    background-color: #808080; 
+}
+
+.btn-decrypt {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave de 0.3 segundos */
+    background-color: #D8DFE8; /* Color de fondo inicial */
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+.btn-decrypt:active {
+    background-color: #808080; /* Cambia el color de fondo cuando se presiona */
+}
+
+.section2{
+    display: block;
+    position: absolute;
+    width: 356px;
+    height: 700px;
+    right: 100px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 2px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+.content-picture{
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.content-parrafo{
+    position: absolute;
+    box-sizing: border-box;
+    top: 400px;
+    left: 40px;
+ }
+
+.content-parrafo h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    color: #343A40;
+}
+
+.content-parrafo p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding-top: 20px;
+}
+
+.content-result {
+    position: absolute;
+    bottom: 330px;
+    right: 25px; /* Ajuste para mantenerlo a la derecha */
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-result p{
+    color: #495057;
+    font-size: 25px;
+}
+
+.content-copy{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 600px;
+    background-color: aqua;
+    padding-left: 40px;
+}
+
+.btn-copy {
+    /* Estilos existentes para el botón de Copiar */
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    margin-left: -20px; /* Ajuste del margen a la izquierda */
+    margin-top: -10px; /* Ajuste del margen hacia abajo */
+}
+
+/* Efecto de cambio de color de fondo cuando se presiona el botón de Copiar */
+.btn-copy:active {
+    background-color: #808080; /* Cambia el color de fondo cuando se presiona */
+}
+
+footer {
+    color: #07111d;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    margin-left: 25px; /* Ajuste del margen a la izquierda */
+    margin-top: -55px; /* Ajuste del margen hacia abajo */
+   
+}
+
+
+.ocultar{
+    display: none;
+}
+
+@media screen and  (max-width:480px){
+    body{
+        background: red;
+    }
+}

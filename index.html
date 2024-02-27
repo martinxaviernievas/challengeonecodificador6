@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+     <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/Logo.svg" alt="logo">
+    </header>
+    <main>
+        <section class="section">
+            <div class="contentboxtext">
+                <textarea placeholder="Ingrese el texto aqui" class="boxtext"></textarea>
+            </div>
+            <div class="alert">
+                <img src="imagenes/alerta.svg" alt="alert">
+                <p>Por favor ingresa solo letras minusculas y sin acentos</p>    
+            </div>
+            <div class="content-button">
+                <input type="button" class="btn-encrypt" value="Encriptar">
+                <input type="button" class="btn-decrypt" value="Desencriptar">
+            </div>
+        </section>
+        <section class="section2">
+            <div class="content-picture">
+                <img src="imagenes/Muñeco.svg" alt="picture">
+            </div>
+            <div class="content-parrafo">
+            <h3>Ningun mensaje fue <br> encontrado</h3>
+            <p>ingresa el texto que quieras encriptar o <br> desencriptar</p>
+            </div>
+            <div class="content-copy">
+                <input type="button" class="btn-copy" value="Copy"> 
+                   
+            </div>
+            <div class="content-result">
+                <p class="text-result"></p>
+            </div>
+            <footer>
+                <p style="color: rgb(24, 71, 133);">Desarrollado por: Martin Xavier Nievas</p>
+                <p style="color: rgb(25, 52, 141);">Contacto:nievasmartinxavier@gmail.com</p>
+            </footer>    
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
