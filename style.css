@@ -1,27 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    font-family: 'inter', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
-body{
+body {
     background-color: #f4f4fc;
 }
 
-header{
+header {
     width: 100%;
     height: 70px;
 }
 
 .logo {
     margin-top: 20px;
-    top: 40px; 
-    left: 40px; 
-    width: 100px; 
-    height: auto; 
+    top: 40px;
+    left: 40px;
+    width: 100px;
+    height: auto;
 }
 
-main{
+main {
     position: absolute;
     width: 105%;
     height: 80%;
@@ -29,7 +29,7 @@ main{
     justify-content: space-between;
 }
 
-.contentboxtext{
+.contentboxtext {
     position: absolute;
     left: 200px;
     top: 100px;
@@ -42,21 +42,20 @@ main{
     margin-top: -100px;
     width: 50%;
     height: 90%;
-    border: 3px solid #033369; 
+    border: 3px solid #033369;
     background-color: #f4f4fc;
     cursor: pointer;
     color: #1257b3;
     font-size: 32px;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
-  }
+}
 
-
-.boxtext::placeholder{
+.boxtext::placeholder {
     color: rgb(120, 120, 158);
 }
 
-.alert{
+.alert {
     position: absolute;
     top: 550px;
     left: 370px;
@@ -64,7 +63,7 @@ main{
     color: #495057;
 }
 
-.content-button{
+.content-button {
     position: absolute;
     top: 585px;
     height: 65px;
@@ -85,9 +84,8 @@ main{
     cursor: pointer;
 }
 
-
 .btn-encrypt:active {
-    background-color: #808080; 
+    background-color: #808080;
 }
 
 .btn-decrypt {
@@ -98,17 +96,17 @@ main{
     font-weight: 400;
     font-family: 'Inter', sans-serif;
     cursor: pointer;
-    transition: background-color 0.3s ease; 
-    background-color: #D8DFE8; 
+    transition: background-color 0.3s ease;
+    background-color: #D8DFE8;
     color: #0A3871;
     border: 1px solid #0A3871;
 }
 
 .btn-decrypt:active {
-    background-color: #808080; 
+    background-color: #808080;
 }
 
-.section2{
+.section2 {
     display: block;
     position: absolute;
     width: 356px;
@@ -121,7 +119,7 @@ main{
     box-shadow: 2px 24px 32px -8px rgba(0, 0, 0, 0.50);
 }
 
-.content-picture{
+.content-picture {
     position: absolute;
     left: 10px;
     top: 0px;
@@ -129,14 +127,14 @@ main{
     padding-top: 50px;
 }
 
-.content-parrafo{
+.content-parrafo {
     position: absolute;
     box-sizing: border-box;
     top: 400px;
     left: 40px;
- }
+}
 
-.content-parrafo h3{
+.content-parrafo h3 {
     font-size: 24px;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
@@ -144,7 +142,7 @@ main{
     color: #343A40;
 }
 
-.content-parrafo p{
+.content-parrafo p {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -156,19 +154,19 @@ main{
 .content-result {
     position: absolute;
     bottom: 330px;
-    right: 25px; 
+    right: 25px;
     width: 320px;
     height: 340px;
     padding: 0;
     box-sizing: border-box;
 }
 
-.content-result p{
+.content-result p {
     color: #495057;
     font-size: 25px;
 }
 
-.content-copy{
+.content-copy {
     display: flex;
     position: absolute;
     bottom: 400px;
@@ -188,10 +186,9 @@ main{
     font-family: 'Inter', sans-serif;
     border: 1px solid #0A3871;
     cursor: pointer;
-    margin-left: -20px; 
-    margin-top: -10px; 
+    margin-left: -20px;
+    margin-top: -10px;
 }
-
 
 .btn-copy:active {
     background-color: #808080;
@@ -202,17 +199,118 @@ footer {
     font-family: 'Inter', sans-serif;
     cursor: pointer;
     margin-left: 25px;
-    margin-top: -55px; 
-   
+    margin-top: -55px;
 }
 
-
-.ocultar{
+.ocultar {
     display: none;
 }
 
-@media screen and  (max-width:480px){
-    body{
-        background: red;
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        position: static;
+    }
+
+    .contentboxtext {
+        position: static;
+        width: 90%;
+        padding: 0;
+        left: 0;
+        top: 0;
+    }
+
+    .boxtext {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .alert {
+        position: static;
+        margin-top: 20px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .content-button {
+        position: static;
+        width: 100%;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .section2 {
+        position: static;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .content-picture {
+        position: static;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .content-parrafo {
+        position: static;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .content-result {
+        position: static;
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .content-copy {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+        padding: 0;
+        background-color: transparent;
+    }
+
+    .btn-copy {
+        width: 90%;
+        margin: 0;
+    }
+
+    footer {
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .btn-encrypt,
+    .btn-decrypt {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .content-parrafo h3 {
+        font-size: 20px;
+    }
+
+    .content-parrafo p {
+        font-size: 14px;
+    }
+
+    .content-result p {
+        font-size: 16px;
+    }
+
+    .btn-copy {
+        height: 45px;
+        font-size: 14px;
     }
 }
